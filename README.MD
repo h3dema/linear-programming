@@ -18,6 +18,15 @@ Neste repositórios apresentamos 3 notebooks:
 
 
 
+## Baixar este repositório
+
+Você precisará ter o git instalado. Mais informações sobre a instalação do git [aqui](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+
+
+```
+git clone https://github.com/h3dema/linear-programming.git
+```
+
 ## Preparação do ambiente
 
 
@@ -26,6 +35,8 @@ Estes comandos estão mostrados para um ambiente linux (eu utilizei um Ubuntu 18
 
 
 ```
+cd linear-programming
+
 python3 -m venv .venv
 source .venv/bin/activate
 
