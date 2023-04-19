@@ -6,7 +6,8 @@ A função objetivo é uma função matemática que contem uma ou mais variávei
 Desejamos minimizar (e.g. o custo total de produção) ou maximizar (e.g. o lucro de venda) o valor da função objetivo.
 As demais restrições do problema (e.g. capacidade de estocagem de cada produto, custo deste, tempo de reposição, etc) são expressas como funções também lineares.
 
-Neste repositórios apresentamos 3 notebooks:
+Neste repositórios apresentamos quatro notebooks:
+
 - 00-Introducao.ipynb
     + Mostramos uma introdução ao problema
     
@@ -16,6 +17,8 @@ Neste repositórios apresentamos 3 notebooks:
 - 02-Alocacao inteira de recursos.ipynb
     + Acrescentamos uma restrição adicional ao problema, convertendo a um problema de programação linear inteira.
 
+- 03-PuLP.ipynb
+    + Este notebook utiliza uma outra biblioteca Python para resolver problemas de programação linear. Esta biblioteca permite selecionar diversos solver (métodos de resolução).
 
 
 ## Baixar este repositório
