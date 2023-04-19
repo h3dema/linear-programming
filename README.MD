@@ -42,3 +42,20 @@ source .venv/bin/activate
 
 pip3 install -r requirements.txt
 ```
+
+
+### Instalando um solver
+
+PuLP permite utilizar diversos solvers.
+Vamos ver como utilizar [COIN-OR](https://github.com/coin-or/Clp) or [GLPK](https://www.gnu.org/software/glpk/), que são solvers free.
+
+```
+sudo apt-get install coinor-clp coinor-libclp-dev
+sudo apt-get install coinor-cbc
+sudo apt-get install glpk-utils
+pulptest
+```
+
+
+Mais informações sobre a instalação podem ser encontradas [aqui](https://coin-or.github.io/user_introduction.html) (em inglês).
+Os passos para instalar no Ubuntu podem ser encontrados [neste blog](https://ma.juii.net/blog/install-coin-or).
